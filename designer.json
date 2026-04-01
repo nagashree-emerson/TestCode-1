@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "id": "node-1775049038947",
+      "type": "agent",
+      "data": {
+        "label": "Employee Attendance Classification Agent Design",
+        "agentId": "922c1a3d-00cf-4520-9d9b-54b459559e01",
+        "agentName": "Employee Attendance Classification Agent Design",
+        "config": {}
+      },
+      "position": {
+        "x": 378.4099652485295,
+        "y": 343.91957521186987
+      }
+    },
+    {
+      "id": "node-1775049051371",
+      "type": "agent",
+      "data": {
+        "label": "Employee Work Assignment Agent Design",
+        "agentId": "6f911363-ab6e-4cb3-99a2-95d71dabb8fe",
+        "agentName": "Employee Work Assignment Agent Design",
+        "config": {}
+      },
+      "position": {
+        "x": 1024.4737583543665,
+        "y": 344.1550436006238
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-node-1775049038947-node-1775049051371-1775049068433",
+      "source": "node-1775049038947",
+      "target": "node-1775049051371",
+      "sourceHandle": "bottom-source",
+      "targetHandle": "top-target",
+      "type": "smoothstep",
+      "data": {
+        "edgeStyle": "solid",
+        "lineType": "smoothstep",
+        "sourceHandlePosition": "bottom",
+        "targetHandlePosition": "top"
+      }
+    }
+  ],
+  "buildIds": [
+    "6f911363-ab6e-4cb3-99a2-95d71dabb8fe",
+    "922c1a3d-00cf-4520-9d9b-54b459559e01"
+  ]
+}
